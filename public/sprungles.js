@@ -42,7 +42,7 @@
     },
     {
       keywords: ['trans', 'transgender', 'girl', 'woman', 'gender', 'transition', 'lgbt'],
-      answer: "Natalie is a proud <strong>trans woman</strong>. Her journey is a testament to resilience — she transitioned while maintaining what she calls '99.9% uptime' in both her systems and her life. She runs Trans Resources at <a href='https://trans.sprungles.org' target='_blank'>trans.sprungles.org</a>."
+      answer: "Natalie is a proud <strong>trans woman</strong>. Her journey is a testament to resilience — she transitioned while maintaining what she calls '99.9% uptime' in both her systems and her life. She runs Trans Resources at <a href='https://trans.acreetionos.org' target='_blank'>trans.acreetionos.org</a>."
     },
     {
       keywords: ['acreetionos', 'acreetion', 'os'],
@@ -125,8 +125,8 @@
       answer: "Natalie's guiding philosophy: <strong>'99.9% uptime — not just in the systems I build, but in my own survival and evolution.'</strong> Another favorite: 'We don't wait for results; we chisel away at the circle until it's a square.'"
     },
     {
-      keywords: ['trans resources', 'trans.sprungles.org', 'resources'],
-      answer: "Natalie runs a Trans Resources site at <a href='https://trans.sprungles.org' target='_blank'>trans.sprungles.org</a> — a hub of support and information for the transgender community."
+      keywords: ['trans resources', 'trans.acreetionos.org', 'resources'],
+      answer: "Natalie runs a Trans Resources site at <a href='https://trans.acreetionos.org' target='_blank'>trans.acreetionos.org</a> — a hub of support and information for the transgender community."
     },
     {
       keywords: ['acreetionos.org', 'acreetionos website'],

@@ -16,7 +16,7 @@
     <a href="https://mastodon.acreetionos.org" class="btn-social" target="_blank">
       <i class="fab fa-mastodon"></i> Mastodon
     </a>
-    <a href="https://trans.sprungles.org" class="btn-social" target="_blank">
+    <a href="https://trans.acreetionos.org" class="btn-social" target="_blank">
       <i class="fas fa-heart"></i> Trans Resources 🏳️‍⚧️
     </a>
   </div>
