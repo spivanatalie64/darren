@@ -7,10 +7,47 @@
     <meta name="description" content="Natalie Spiva — Trans woman, Lead Infrastructure Architect for AcreetionOS. Master of 99.9% Uptime. Linux expert, Cloudflare backend lead, cat mom. 🐱" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="/sprungles.css" />
+    <link rel="stylesheet" href="/darren.css" />
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
     <script src="/sprungles.js"></script>
+
+    <!-- Darren Chatbot -->
+    <button id="darren-toggle" class="darren-toggle" title="Talk to Darren" aria-label="Talk to Darren">
+      <i class="fas fa-comment-dots"></i>
+      <span class="tooltip">Talk to Darren 💬</span>
+    </button>
+
+    <div id="darren-widget" class="darren-widget">
+      <div class="darren-header">
+        <div class="darren-header-left">
+          <i class="fas fa-crown"></i>
+          <div>
+            <h3>Darren Bot</h3>
+            <p>God Emperor. Gen X. MASTER branch. 🤠</p>
+          </div>
+        </div>
+        <div class="darren-header-right">
+          <button class="darren-close" id="darren-close" aria-label="Close"><i class="fas fa-times"></i></button>
+        </div>
+      </div>
+      <div class="darren-messages" id="darren-messages">
+        <div class="darren-msg bot">
+          <div class="darren-avatar"><img src="/bella.png" alt="Darren" width="32" height="32"></div>
+          <div class="darren-bubble"><strong>Darren:</strong> Hey. I'm Darren. Before you ask — yes, I think I'm a god, yes Gen X is the best, and yes 'main' is wrong. Don't wine at me. What do you want?</div>
+        </div>
+      </div>
+      <div class="darren-suggestions" id="darren-suggestions"></div>
+      <div class="darren-input-area">
+        <form id="darren-form" class="darren-input-row">
+          <input type="text" class="darren-input" id="darren-input" placeholder="Say something to Darren..." autocomplete="off">
+          <button type="submit" class="darren-send" id="darren-send" disabled><i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <script src="/darren.js"></script>
   </body>
 </html>
