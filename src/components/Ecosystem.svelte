@@ -30,7 +30,7 @@
         <span>72+ active nodes worldwide</span>
       </div>
     </div>
-    <a href="https://natalie.acreetionos.org" target="_blank" class="eco-node">
+    <a href="https://spivanatalie64.github.io/acreetionos-blog/" target="_blank" class="eco-node">
       <div class="node-icon" style="background:rgba(251,191,36,0.2);color:#fbbf24;">📝</div>
       <div class="node-info">
         <strong>Blog</strong>

@@ -29,7 +29,7 @@
     <a href="#about" class="nav-link"><i class="fas fa-microchip"></i> System Logs</a>
     <a href="#infrastructure" class="nav-link"><i class="fas fa-server"></i> Infrastructure</a>
     <a href="#contact" class="nav-link"><i class="fas fa-link"></i> Connect</a>
-    <a href="https://natalie.acreetionos.org" class="nav-link" target="_blank"><i class="fas fa-pen"></i> Blog</a>
+    <a href="https://spivanatalie64.github.io/acreetionos-blog/" class="nav-link" target="_blank"><i class="fas fa-pen"></i> Blog</a>
     <a href="/resume.pdf" class="nav-link" target="_blank"><i class="fas fa-file-pdf"></i> Resume.pdf</a>
   </nav>
 </header>
