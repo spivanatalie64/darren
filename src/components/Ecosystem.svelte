@@ -30,6 +30,13 @@
         <span>72+ active nodes worldwide</span>
       </div>
     </div>
+    <a href="https://natalie.acreetionos.org" target="_blank" class="eco-node">
+      <div class="node-icon" style="background:rgba(251,191,36,0.2);color:#fbbf24;">📝</div>
+      <div class="node-info">
+        <strong>Blog</strong>
+        <span>AcreetionOS updates &amp; dev logs</span>
+      </div>
+    </a>
   </div>
 </section>
 
