@@ -1,4 +1,4 @@
-CFLAGS = -Wall -Wextra -O3 -march=native -flto -D_FILE_OFFSET_BITS=64 -I src -I/usr/include/fuse3
+CFLAGS = -Wall -Wextra -O3 -flto -D_FILE_OFFSET_BITS=64 -I src -I/usr/include/fuse3
 LDFLAGS = -lfuse3 -lzstd -lxxhash -lpthread -flto
 
 OBJS = src/main.o src/ops.o src/pool.o src/metadata.o src/snapshot.o
