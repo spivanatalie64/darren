@@ -1,0 +1,20 @@
+YAcFS - Yet Another common File System
+
+Project Lead & Creator:
+  Natalie Spiva <natalie@acreetionos>
+
+Core Developers:
+  Darren Clift <darren@acreetionos>
+  Natalie Spiva
+
+Organization:
+  AcreetionOS
+
+Additional Contributors:
+  The FUSE/libfuse3 team
+  The xxHash project (Yann Collet)
+  The Zstandard project (Facebook/Meta)
+  All future contributors to YAcFS
+
+This filesystem is developed under AcreetionOS.
+Copyright (c) 2026 AcreetionOS. All rights reserved.
