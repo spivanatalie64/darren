@@ -135,32 +135,57 @@ fusermount3 -u /mnt/yacfs
 
 ## Pool Maintenance
 
-### Checking Pool Health
+### Garbage Collection (yacfs-gc)
 
-YAcFS verifies checksums on every read. To proactively verify data:
+Remove orphaned block files not referenced by any inode:
 
 ```bash
-# Read all files to trigger checksum verification
-find /mnt/yacfs -type f -exec cat {} > /dev/null \;
+yacfs-gc /data/pool
 ```
 
-Corrupted blocks will produce `-EIO` errors.
+Run this periodically to reclaim space after file deletions.
 
-### Recovering Space
+### Data Scrubbing (yacfs-scrub)
 
-Since blocks are content-addressed, deleting a file removes its inode metadata but leaves block files in the pool. Block files are only removed when:
+Proactively verify all data integrity:
 
-1. The inode metadata is deleted
-2. The block hashes are removed from the inode's block list
+```bash
+yacfs-scrub /mnt/yacfs
+```
 
-Currently, orphaned block cleanup requires manual intervention. A `yacfs-gc` (garbage collection) tool is planned.
+Scrub reads every byte through the FUSE mount, triggering YAcFS's on-read checksum verification. Corrupted blocks produce `-EIO` errors and are reported with filename and path.
+
+### Snapshots (yacfs-ctl)
+
+```bash
+# List snapshots
+yacfs-ctl /data/pool snapshots
+
+# Create a snapshot
+yacfs-ctl /data/pool snapshot before-update
+
+# Rollback to a snapshot
+yacfs-ctl /data/pool rollback before-update
+```
+
+### Snapshot Replication (yacfs-replicate)
+
+Send and receive snapshots between machines over TCP:
+
+```bash
+# On backup server
+yacfs-receive /data/backup-pool 9999
+
+# On production machine
+yacfs-ctl /data/pool snapshot daily-backup
+yacfs-send /data/pool daily-backup backup-server 9999
+```
 
 ## Limitations
 
 | Limitation | Status | Workaround |
 |---|---|---|
 | FUSE overhead on metadata | ~5-50µs per op | Kernel module planned (YAcFS v3) |
-| No fsync() journaling | Not yet implemented | Acceptable for non-database workloads |
 | No self-healing | Requires pool redundancy | Use RAID underneath |
 | No online resize | Pool size fixed at creation | Pre-allocate large pool |
 | No encryption | Planned for v3 | Use LUKS underneath |
