@@ -1,23 +1,27 @@
+<script>
+  let { compact = false } = $props();
+</script>
+
 <section id="contact" class="glass-card">
   <h2><i class="fas fa-link"></i> Let's Connect 🌈</h2>
   <div class="social-grid">
     <a href="https://github.com/spivanatalie64" class="btn-social" target="_blank">
       <i class="fab fa-github"></i> GitHub
     </a>
-    <a href="https://gitlab.acreetionos.org" class="btn-social" target="_blank">
+    <a href="https://gitlab.acreetionos.org/natalie" class="btn-social" target="_blank">
       <i class="fab fa-gitlab"></i> GitLab
     </a>
-    <a href="https://spivanatalie64.github.io/ion-website/" class="btn-social" target="_blank">
-      <i class="fab fa-android"></i> Ion ROM
-    </a>
     <a href="https://x.com/spiva4spiva" class="btn-social" target="_blank">
-      <i class="fab fa-twitter"></i> Twitter/X
+      <i class="fab fa-twitter"></i> X / Twitter
     </a>
-    <a href="https://mastodon.acreetionos.org" class="btn-social" target="_blank">
-      <i class="fab fa-mastodon"></i> Mastodon
+    <a href="https://blog.natalie.acreetionos.org" class="btn-social" target="_blank">
+      <i class="fas fa-pen"></i> Blog
     </a>
-    <a href="https://trans.acreetionos.org" class="btn-social" target="_blank">
-      <i class="fas fa-heart"></i> Trans Resources 🏳️‍⚧️
+    <a href="https://acreetionos.org" class="btn-social" target="_blank">
+      <i class="fas fa-globe"></i> AcreetionOS
+    </a>
+    <a href="https://discord.gg/acreetionos" class="btn-social" target="_blank">
+      <i class="fab fa-discord"></i> Discord
     </a>
   </div>
 </section>
@@ -40,9 +44,7 @@
   .glass-card::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: 0; left: 0; right: 0;
     height: 3px;
     background: linear-gradient(90deg, #55cdfc, #f7a8b8, #7c3aed, #f7a8b8, #55cdfc);
     background-size: 200% 100%;
@@ -75,6 +77,11 @@
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 12px;
     margin-top: 8px;
+  }
+
+  .social-grid.compact {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 8px;
   }
 
   .btn-social {

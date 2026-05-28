@@ -82,7 +82,7 @@
     },
     {
       keywords: ['website', 'site', 'sprungles.org', 'sprungles'],
-      answer: "Natalie's personal site is <a href='https://sprungles.org' target='_blank'>sprungles.org</a> — a glassmorphism-styled showcase of her infrastructure work, projects, and story. This very chatbot, Sprungles, is named after the domain!"
+      answer: "Natalie's personal site is <a href='https://natalie.acreetionos.org' target='_blank'>natalie.acreetionos.org</a> — a glassmorphism-styled showcase of her infrastructure work, projects, and story!"
     },
     {
       keywords: ['projects', 'ecosystem', 'nodes', 'mirror', 'network'],
@@ -191,7 +191,7 @@
       '      </div>',
       '    </div>',
       '    <div class="sprungles-header-right">',
-      '      <a href="https://sprungles.org" target="_blank">About</a>',
+      '      <a href="https://natalie.acreetionos.org" target="_blank">About</a>',
       '      <button class="sprungles-close" id="sprungles-close" aria-label="Close">',
       '        <i class="fas fa-times"></i>',
       '      </button>',
