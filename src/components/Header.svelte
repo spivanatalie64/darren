@@ -9,7 +9,7 @@
       </div>
       <div>
         <h1>Darren Clift</h1>
-        <p class="title">Co-Developer, AcreetionOS</p>
+        <p class="title">Codeveloper • AcreetionOS</p>
       </div>
     </div>
     <nav>
