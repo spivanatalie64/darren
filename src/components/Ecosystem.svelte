@@ -27,6 +27,7 @@
     { name: 'YAcFS', desc: 'Yet Another common File System', url: '#docs', icon: '💾', color: '#55cdfc' },
     { name: 'AcreetionOS', desc: 'High-availability Arch Linux distribution', url: 'https://acreetionos.org', icon: '🖥️', color: '#a78bfa' },
     { name: 'ArttulOS', desc: 'Accessibility layer of the future', url: 'https://arttulos.acreetionos.org', icon: '♿', color: '#f9a8d4' },
+    { name: 'FlatFree', desc: 'Community Flatpak repository, free and open for everyone', url: 'https://flatfree.pages.dev', icon: '📦', color: '#2ecc71' },
     { name: 'Ion ROM', desc: 'Open-source Android ROM', url: 'https://spivanatalie64.github.io/ion-website/', icon: '📱', color: '#55cdfc' },
     { name: 'OVSC', desc: 'Orchestrated Virtual Server Cloud', url: 'https://gitlab.acreetionos.org/natalie/OVSC', icon: '☁️', color: '#2dd4bf' },
     { name: 'Mirror Network', desc: '72+ active nodes worldwide', url: '#', icon: '🌍', color: '#2dd4bf' },
