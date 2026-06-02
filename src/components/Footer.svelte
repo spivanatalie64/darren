@@ -1,6 +1,6 @@
 <footer>
-  <p>&copy; 2026 Natalie Cole-Clift Spiva</p>
-  <p class="sub">Infrastructure Architect &bull; AcreetionOS Co-Creator</p>
+  <p>&copy; 2026 Darren Clift</p>
+  <p class="sub">Co-Developer &bull; AcreetionOS</p>
 </footer>
 
 <style>
@@ -11,10 +11,5 @@
     color: #71717a;
     font-size: 0.85rem;
   }
-
-  .sub {
-    font-size: 0.75rem;
-    margin-top: 4px;
-    opacity: 0.6;
-  }
+  .sub { font-size: 0.75rem; margin-top: 4px; opacity: 0.6; }
 </style>

@@ -1,25 +1,22 @@
 <script>
-  let { toggleTheme, darkMode } = $props();
 </script>
 
 <header>
   <div class="header-inner">
     <div class="brand">
       <div class="avatar">
-        <img src="/Business.png" alt="Natalie Spiva" />
+        <img src="/darren_avatar.webp" alt="Darren Clift" />
       </div>
       <div>
-        <h1>Natalie Spiva</h1>
-        <p class="title">Lead Infrastructure Architect</p>
+        <h1>Darren Clift</h1>
+        <p class="title">Co-Developer, AcreetionOS</p>
       </div>
     </div>
     <nav>
       <a href="#about">About</a>
-      <a href="#infrastructure">Infrastructure</a>
-      <a href="#ecosystem">Projects</a>
+      <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
       <a href="https://acreetionos.org" target="_blank" class="external">AcreetionOS <i class="fas fa-external-link-alt"></i></a>
-      <a href="/resume.pdf" target="_blank" class="external">Resume <i class="fas fa-file-pdf"></i></a>
     </nav>
   </div>
 </header>
@@ -114,15 +111,7 @@
       align-items: flex-start;
       gap: 16px;
     }
-
-    nav {
-      width: 100%;
-      gap: 2px;
-    }
-
-    nav a {
-      font-size: 0.8rem;
-      padding: 6px 10px;
-    }
+    nav { width: 100%; gap: 2px; }
+    nav a { font-size: 0.8rem; padding: 6px 10px; }
   }
 </style>

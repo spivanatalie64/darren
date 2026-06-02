@@ -1,24 +1,16 @@
 <script>
   import Header from './components/Header.svelte';
-  import Infrastructure from './components/Infrastructure.svelte';
   import About from './components/About.svelte';
-  import Ecosystem from './components/Ecosystem.svelte';
+  import Projects from './components/Projects.svelte';
   import Contact from './components/Contact.svelte';
   import Footer from './components/Footer.svelte';
-
-  let darkMode = $state(true);
-
-  function toggleTheme() {
-    darkMode = !darkMode;
-  }
 </script>
 
-<div class="app" class:dark={darkMode}>
-  <Header {toggleTheme} {darkMode} />
+<div class="app">
+  <Header />
   <main>
     <About />
-    <Infrastructure />
-    <Ecosystem />
+    <Projects />
     <Contact />
   </main>
   <Footer />
@@ -47,10 +39,6 @@
 
   main {
     padding: 40px 0 60px;
-  }
-
-  section {
-    margin-bottom: 32px;
   }
 
   h2 {
