@@ -1,6 +1,7 @@
 <footer>
   <p>&copy; 2026 Darren Clift</p>
   <p class="sub">Co-Developer &bull; AcreetionOS</p>
+  <p class="love">Made with love by Natalie &lt;3 Love you dad. I knew you needed this. LOL.</p>
 </footer>
 
 <style>
@@ -12,4 +13,5 @@
     font-size: 0.85rem;
   }
   .sub { font-size: 0.75rem; margin-top: 4px; opacity: 0.6; }
+  .love { font-size: 0.75rem; margin-top: 8px; color: #2ecc71; opacity: 0.7; }
 </style>
