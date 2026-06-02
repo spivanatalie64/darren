@@ -47,7 +47,7 @@
     height: 52px;
     border-radius: 50%;
     overflow: hidden;
-    border: 2px solid rgba(192, 132, 252, 0.3);
+    border: 2px solid rgba(46, 204, 113, 0.3);
     flex-shrink: 0;
   }
 
@@ -66,7 +66,7 @@
 
   .title {
     font-size: 0.8rem;
-    color: #7c3aed;
+    color: #2ecc71;
     font-weight: 500;
   }
 
@@ -93,11 +93,11 @@
   }
 
   nav a.external {
-    color: #c084fc;
+    color: #2ecc71;
   }
 
   nav a.external:hover {
-    background: rgba(192, 132, 252, 0.1);
+    background: rgba(46, 204, 113, 0.1);
   }
 
   nav a i {

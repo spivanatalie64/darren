@@ -18,13 +18,13 @@
   h2 {
     font-size: 1.6rem;
     font-weight: 700;
-    color: #c084fc;
+    color: #2ecc71;
     margin-bottom: 16px;
     display: flex;
     align-items: center;
     gap: 10px;
   }
-  h2 i { font-size: 1.2rem; color: #7c3aed; }
+  h2 i { font-size: 1.2rem; color: #2ecc71; }
   .card {
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.06);

@@ -19,13 +19,13 @@
   h2 {
     font-size: 1.6rem;
     font-weight: 700;
-    color: #c084fc;
+    color: #2ecc71;
     margin-bottom: 16px;
     display: flex;
     align-items: center;
     gap: 10px;
   }
-  h2 i { font-size: 1.2rem; color: #7c3aed; }
+  h2 i { font-size: 1.2rem; color: #2ecc71; }
   .card {
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.06);
@@ -42,20 +42,20 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
-    background: rgba(124, 58, 237, 0.08);
+    background: rgba(46, 204, 113, 0.08);
     color: #e1e1e6;
     text-decoration: none;
     padding: 12px 14px;
     border-radius: 8px;
-    border: 1px solid rgba(124, 58, 237, 0.12);
+    border: 1px solid rgba(46, 204, 113, 0.12);
     transition: all 0.15s;
     font-weight: 500;
     font-size: 0.85rem;
   }
   .btn-social:hover {
-    background: rgba(124, 58, 237, 0.18);
-    border-color: rgba(192, 132, 252, 0.3);
-    color: #c084fc;
+    background: rgba(46, 204, 113, 0.18);
+    border-color: rgba(46, 204, 113, 0.3);
+    color: #2ecc71;
     transform: translateY(-1px);
   }
 </style>

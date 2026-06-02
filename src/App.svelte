@@ -44,7 +44,7 @@
   h2 {
     font-size: 1.6rem;
     font-weight: 700;
-    color: #c084fc;
+    color: #2ecc71;
     margin-bottom: 16px;
     display: flex;
     align-items: center;
@@ -53,6 +53,6 @@
 
   h2 i {
     font-size: 1.2rem;
-    color: #7c3aed;
+    color: #2ecc71;
   }
 </style>

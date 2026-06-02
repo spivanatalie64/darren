@@ -31,13 +31,13 @@
   h2 {
     font-size: 1.6rem;
     font-weight: 700;
-    color: #c084fc;
+    color: #2ecc71;
     margin-bottom: 16px;
     display: flex;
     align-items: center;
     gap: 10px;
   }
-  h2 i { font-size: 1.2rem; color: #7c3aed; }
+  h2 i { font-size: 1.2rem; color: #2ecc71; }
   .card {
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.06);
@@ -56,12 +56,12 @@
     transition: all 0.15s;
   }
   .project-item:hover {
-    border-color: rgba(192, 132, 252, 0.2);
-    background: rgba(124, 58, 237, 0.04);
+    border-color: rgba(46, 204, 113, 0.2);
+    background: rgba(46, 204, 113, 0.04);
   }
   .project-item i {
     font-size: 1.3rem;
-    color: #c084fc;
+    color: #2ecc71;
     margin-top: 2px;
     flex-shrink: 0;
   }
