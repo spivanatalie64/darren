@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - The Secret Sector | Natalie Spiva</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body { text-align: center; padding: 50px; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; font-family: sans-serif; }
+        .error-code { font-size: 8rem; font-weight: bold; color: #f38020; margin: 0; line-height: 1; }
+        .secret-box { border: 2px dashed #f38020; padding: 30px; border-radius: 20px; max-width: 650px; background: rgba(243, 128, 32, 0.05); }
+        .main-nav-buttons { display: flex; gap: 10px; justify-content: center; margin-bottom: 25px; flex-wrap: wrap; }
+        .nav-btn { padding: 12px 20px; border-radius: 30px; text-decoration: none; font-weight: bold; border: 2px solid #f38020; color: #f38020; transition: 0.3s; }
+        .nav-btn:hover { background: #f38020; color: #fff; }
+        .directory-links { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 20px; }
+        .directory-links a { text-decoration: none; color: inherit; padding: 10px; border: 1px solid #444; border-radius: 10px; transition: 0.3s; font-size: 0.9em; }
+        .directory-links a:hover { border-color: #f38020; background: rgba(243, 128, 32, 0.1); }
+        .dark-mode { background-color: #121212; color: #e0e0e0; }
+        .shhh { font-style: italic; opacity: 0.8; margin-top: 0; }
+    </style>
+</head>
+<body class="dark-mode">
+    <p class="error-code">404</p>
+    <div class="secret-box">
+        <h2 class="shhh">Shhhhhhhh. You found the secret place.</h2>
+        <div class="main-nav-buttons">
+            <a href="index.html" class="nav-btn">Main Page</a>
+            <a href="https://acreetionos.org" class="nav-btn">AcreetionOS</a>
+            <a href="https://arttulos.acreetionos.org" class="nav-btn">ArttulOS</a>
+            <a href="https://spivanatalie64.github.io/ion-website/" class="nav-btn">Ion ROM</a>
+        </div>
+        <p>Kidding. You hit a dead link — but <strong>natalie.acreetionos.org</strong> is still here. 🐱</p>
+        <div class="directory-links">
+            <a href="https://github.com/spivanatalie64" target="_blank"><i class="fab fa-github"></i> Natalie's GitHub</a>
+            <a href="https://github.com/cobra3282000" target="_blank"><i class="fab fa-github"></i> Darren's GitHub</a>
+            <a href="https://gitlab.acreetionos.org" target="_blank"><i class="fab fa-gitlab"></i> Acreetion GitLab</a>
+            <a href="https://nextcloud.acreetionos.org" target="_blank"><i class="fas fa-cloud"></i> Nextcloud</a>
+            <a href="https://mastodon.acreetionos.org" target="_blank"><i class="fab fa-mastodon"></i> Mastodon</a>
+            <a href="https://discourse.acreetionos.org" target="_blank"><i class="fas fa-comments"></i> Discourse</a>
+            <a href="https://spivanatalie64.github.io/ion-website/" target="_blank"><i class="fab fa-android"></i> Ion Website</a>
+        </div>
+    </div>
+    <script>if (localStorage.getItem('theme') === 'light') document.body.classList.remove('dark-mode');</script>
+    <script src="sprungles.js"></script>
+</body>
+</html>
