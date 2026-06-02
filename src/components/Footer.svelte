@@ -1,6 +1,6 @@
 <footer>
   <p>&copy; 2026 Darren Clift</p>
-  <p class="sub">Codeveloper &bull; AcreetionOS</p>
+  <p class="sub">Co-Developer &bull; AcreetionOS</p>
   <p class="love">Made with love by Natalie &lt;3 Love you dad. I knew you needed this. LOL.</p>
 </footer>
 
