@@ -2,8 +2,8 @@
   <h2><i class="fas fa-terminal"></i> About</h2>
   <div class="card">
     <p>
-      I'm a developer and co-creator of AcreetionOS. Alongside my daughter Natalie,
-      I helped build AcreetionOS from the ground up — focusing on system architecture,
+      I'm a co-developer of AcreetionOS. Alongside Natalie,
+      I help build AcreetionOS from the ground up — focusing on system architecture,
       package management, and making Linux accessible for everyone.
     </p>
     <p>
